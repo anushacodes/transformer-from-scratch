@@ -94,12 +94,13 @@ The model is trained on a dataset of English-French sentence pairs. The dataset 
 
 ## Sample Translations
 
-| English Input                        | French Translation                      |
-| :----------------------------------- | :-------------------------------------- |
-| what should we do when the day starts? | `<SOS>`Ce que devrais-nous faire le dire ? |
-| what do you think about the book?      | `<SOS>`Ce que vous pensez-vous ?         |
-| where are you going?                 | `<SOS>`Où vous avez en train de matin ?  |
-| I want a new book.                   | `<SOS>`Je veux un livre un livre.       |
+| English Input                        | French Translation                      | Literal Translation                    |
+| :----------------------------------- | :-------------------------------------- | :------------------------------------- |
+| What should we do when the day starts? | `<SOS>` Ce que devrais-nous faire le dire ? | What should we do to say it?           |
+| What do you think about the book?      | `<SOS>` Ce que vous pensez-vous ?         | What you think-you?                     |
+| Where are you going?                 | `<SOS>` Où vous avez en train de matin ?  | Where are you in the process of morning? |
+| I want a new book.                   | `<SOS>` Je veux un livre un livre.       | I want a book a book.                   |
+
 
 ## Notes
 
